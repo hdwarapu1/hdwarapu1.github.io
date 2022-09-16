@@ -10,7 +10,7 @@ class LikeButton extends React.Component {
 
   render() {
     if (this.state.liked) {
-      return 'You liked this.'+' on '+date();
+      return 'You liked this.'+' on ';
     }
 
     return e(
